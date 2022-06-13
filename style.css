@@ -1,0 +1,54 @@
+/*
+Theme Name: La Noticia Jobs Theme
+Theme URI: https://lanoticiajobs.com
+Author: La Noticia
+Author URI: https://lanoticiajobs.com
+Description: Template de La Noticia Jobs
+Version: 1.0
+Tags: responsive, wordpress, jobs
+*/
+
+body {
+  font-family: arial;
+}
+
+.nav{
+  background:#FFFF;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+nav.navegacion ul{
+  margin-top: 25px;
+}
+
+nav.navegacion ul li{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+nav.navegacion ul li.current_page_item{
+  border-bottom: 3px solid #004E92;
+}
+
+nav.navegacion ul li a{
+  color: #004E92;
+  text-transform: uppercase;
+}
+
+.navbar img.img-fluid{
+  width: 250px;
+}
+
+footer{
+  background-color: #EAEAEA;
+}
+
+.loop_título{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
