@@ -5,8 +5,7 @@
         wp_enqueue_style('bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" );
         wp_enqueue_style('style', get_stylesheet_uri() );
         wp_enqueue_script('jquery');
-        wp_enqueue_script('bootstrapjs', "https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js", array('jquery'), '4.3.1', true );
-
+        wp_enqueue_script('bootstrapjs', "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js", array('jquery'), '4.3.1', true );
     }
 
     add_action('wp_enqueue_scripts', 'laNoticiaJobs_styles');
@@ -22,7 +21,7 @@
             'name' => __('Footer Widget'),
             'id' => 'footer_widget',
             'description' => 'Widget para el footer de La Noticia Jobs',
-            'before_widget' => '<div id="%1$s" class="widget col-sm-6 %2$s">',
+            'before_widget' => '<div id="%1$s" class="widget col-sm-6 padding-5 %2$s">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class"widget-title">',
             'after-title' => '</h4>'

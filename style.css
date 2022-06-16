@@ -52,3 +52,34 @@ footer{
   margin-bottom: 20px;
   font-weight: 600;
 }
+
+.busqueda-jobs{
+  height: 600px;
+  width: 100%;
+  background-color: #004E92;
+}
+
+.contenido{
+  height: 600px;
+  width: 0 auto;
+}
+
+.card-blue{
+  background-color: #004E92;
+  color:#FFFFFF;
+  font-weight: 900;
+}
+
+.padding-5{
+  padding: 20px;
+}
+
+.titulo-blog-home{
+  width: 100%;
+  padding: 20px 0;
+}
+
+.texto-copyright{
+  width: 100%;
+  color:#999999;
+}

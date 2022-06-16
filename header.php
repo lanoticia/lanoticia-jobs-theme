@@ -11,7 +11,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<header class="site-header">
+		<header class="site-header container">
 			<nav class="navegacion">
 				<div class="navbar navbar-expand-lg navbar-light">
 					<img src="<?php echo get_stylesheet_directory_uri() ?>/img/lanoticiajobs.png" class="img-fluid">
